@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_depth - this is height fo tree
+ * binary_tree_leaves - this is height fo tree
  *
  * @tree: A pointer to pointer for root
  *
