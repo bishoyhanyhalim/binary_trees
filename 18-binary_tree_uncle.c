@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_sibling - this func for binary tree
+ * binary_tree_uncle - this func for binary tree
  *
  * @node: A pointer to tree
  *
