@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_uncle - this func for binary tree
+ * binary_tree_sibling - this func for binary tree
  *
  * @node: A pointer to tree
  *
@@ -9,7 +9,7 @@
  */
 binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 {
-	if (node->parent == NULL || node == NULL ||
+	if (node == NULL || node->parent == NULL ||
 		node->parent->parent == NULL)
 	{
 		return (NULL);
